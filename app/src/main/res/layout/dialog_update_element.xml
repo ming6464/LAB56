@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:background="@color/white"
+    android:layout_height="wrap_content">
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/dialogUpdateElement_ed_name"
+        android:layout_width="match_parent"
+        android:hint="Name"
+        android:layout_height="40dp"/>
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/dialogUpdateElement_ed_url"
+        android:hint="URL"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"/>
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/dialogUpdateElement_btn_cancle"
+
+            android:layout_width="100dp"
+            android:layout_marginEnd="10dp"
+            android:text="Cancle"
+            android:layout_height="50dp"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/dialogUpdateElement_btn_udpate"
+
+            android:layout_width="100dp"
+            android:layout_marginStart="10dp"
+            android:text="Update"
+            android:layout_height="50dp"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
